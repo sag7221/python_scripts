@@ -1,0 +1,10 @@
+import sys
+import requests
+import os
+
+release_dict = {}
+release_dict['release_version'] = "23.11.03"
+release_dict['BITBUCKET_PROJECT_KEY'] = "JEN"
+release_dict['BITBUCKET_COMP_NAME'] = "bb_pipeline_sandbox"
+
+sys.exit(release_dict)
